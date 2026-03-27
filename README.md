@@ -1,0 +1,28 @@
+# 🔒 Secure Offline Coding Assistant
+
+A 100% offline, privacy-first AI coding assistant powered by local Large Language Models (LLMs) and GPU acceleration. 
+
+This project allows you to ask coding questions, debug scripts, and generate proprietary code without ever sending your data to the internet or relying on paid API keys. The AI runs entirely on your local hardware using Hugging Face pipelines, LangChain, and a clean Streamlit user interface.
+
+## 🚀 Features
+* **Total Privacy:** No internet connection required after the initial model download. Your proprietary code never leaves your machine.
+* **GPU Accelerated:** Optimized to utilize NVIDIA GPUs via PyTorch CUDA for lightning-fast inference.
+* **Specialized Coding Model:** Uses `deepseek-ai/deepseek-coder-1.3b-instruct`, a highly capable and lightweight open-source coding model.
+* **Interactive UI:** A sleek, responsive chat interface built with Streamlit, featuring built-in session state for memory and context.
+
+## 🛠️ Tech Stack
+* **Python 3.10+**
+* **LangChain & LangChain-Core:** For prompt templating and connecting the LLM pipeline.
+* **Hugging Face Transformers:** For loading and interacting with the local DeepSeek model.
+* **PyTorch (CUDA 12.x/13.0+):** For offloading matrix calculations to the GPU.
+* **Streamlit:** For the frontend web application.
+
+## ⚙️ Prerequisites
+To get the blazing-fast speeds this project offers, you need a machine with a dedicated **NVIDIA GPU** and up-to-date drivers.
+
+## 📦 Installation
+
+**1. Clone the repository**
+```bash
+git clone [https://github.com/yourusername/offline-coding-assistant.git](https://github.com/yourusername/offline-coding-assistant.git)
+cd offline-coding-assistant
