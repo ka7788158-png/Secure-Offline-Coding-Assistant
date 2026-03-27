@@ -26,3 +26,23 @@ To get the blazing-fast speeds this project offers, you need a machine with a de
 ```bash
 git clone [https://github.com/yourusername/offline-coding-assistant.git](https://github.com/yourusername/offline-coding-assistant.git)
 cd offline-coding-assistant
+
+** 2. Create and activate a virtual environmentc ```bash
+
+```Bash
+python -m venv venv
+
+# On Windows
+venv\Scripts\activate
+
+# On macOS/Linux
+source venv/bin/activate
+3. Install PyTorch with CUDA Support
+(Important: Do not just pip install torch as it downloads the CPU version.)
+
+Bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+4. Install the remaining dependencies
+
+Bash
+pip install streamlit transformers langchain-huggingface langchain-core
