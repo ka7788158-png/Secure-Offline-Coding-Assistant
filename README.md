@@ -66,12 +66,12 @@ If you prefer a pure hacker terminal experience, you can run the core engine dir
 python offline_coder.py
 ```
 
-📁 Project Structure
+# 📁 Project Structure
 offline_coder.py: The core backend class that initializes the Hugging Face pipeline, forces it onto the GPU (device=0), and sets up the LangChain Prompt Templates.
 
 offline_ui.py: The frontend Streamlit application that handles the chat interface, caches the heavy model into memory, and manages conversation history.
 
-🤝 Acknowledgments
+# 🤝 Acknowledgments
 Built by Kavya Agrawal
 
 Powered by open-source models from DeepSeek and the Hugging Face ecosystem.
