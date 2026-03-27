@@ -49,7 +49,7 @@ pip install streamlit transformers langchain-huggingface langchain-core
 streamlit run app.py
 ```
 
-🎮 Usage
+# 🎮 Usage
 Note on the first run: You will need Wi-Fi ON the very first time you run the script so it can download the ~2.6GB model from Hugging Face. Once it says "Model loaded and ready!", you can turn off your Wi-Fi forever.
 
 Run the Streamlit UI
