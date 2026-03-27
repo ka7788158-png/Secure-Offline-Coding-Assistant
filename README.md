@@ -22,8 +22,9 @@ To get the blazing-fast speeds this project offers, you need a machine with a de
 
 ## 📦 Installation
 
-**1. Clone the repository**
 ```bash
+1. Clone the repository
+
 git clone [https://github.com/yourusername/offline-coding-assistant.git](https://github.com/yourusername/offline-coding-assistant.git)
 cd offline-coding-assistant
 
